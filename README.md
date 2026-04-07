@@ -367,7 +367,7 @@ Ruta de referencia: https://www.figma.com/
 
 **HTML5 & CSS3**
 
-  <img src = "https://logowik.com/content/uploads/images/css3-html51661.jpg" alt = "html_css-logo">
+  <img src = "https://i.pinimg.com/736x/fe/57/10/fe571020f2e476bca20e1ae6441569ec.jpg" alt = "html_css-logo">
 
 
 Lenguajes estándar de marcado y hojas de estilo utilizados para definir la estructura semántica y el diseño visual estático de los templates en el Landing Page y los componentes de las Frontend Web Applications.
@@ -407,7 +407,7 @@ Ruta de referencia: https://structurizr.com/
 **Microsoft SQL Server**
 
 <div style="align: center">
-  <img src = "https://cdn-icons-png.flaticon.com/512/5968/5968364.png" alt = "sql-logo">
+  <img src = "https://e7.pngegg.com/pngimages/162/121/png-clipart-microsoft-sql-server-computer-servers-sql-server-management-studio-microsoft-angle-triangle.png" alt = "sql-logo">
 </div>
 
 Sistema de Gestión de Bases de Datos Relacionales (RDBMS) utilizado para el diseño y almacenamiento persistente de los datos transaccionales de los Bounded Contexts del sistema. Soporta la integridad referencial y las consultas estructuradas necesarias para la lógica del backend.
@@ -416,7 +416,7 @@ Ruta de descarga: https://www.microsoft.com/sql-server/sql-server-downloads
 
 **Spring Boot (Java)**
 <div style="align: center">
-  <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/1280px-Spring_Boot.svg.png" alt = "springboot-logo">
+  <img src = "https://e4developer.com/posts/microservices-toolbox-spring-boot/images/spring-boot.png" alt = "springboot-logo">
 </div>
 Framework backend basado en Java utilizado para la construcción, configuración y despliegue de los RESTful Web Services. Gestiona la lógica de negocio, la seguridad, las transacciones y la exposición de los endpoints que serán consumidos por las aplicaciones web.
 
