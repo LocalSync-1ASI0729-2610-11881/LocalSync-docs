@@ -407,7 +407,7 @@ Ruta de referencia: https://structurizr.com/
 **Microsoft SQL Server**
 
 <div style="align: center">
-  <img src = "https://e7.pngegg.com/pngimages/162/121/png-clipart-microsoft-sql-server-computer-servers-sql-server-management-studio-microsoft-angle-triangle.png" alt = "sql-logo">
+  <img src = "https://cdn-icons-png.flaticon.com/512/5968/5968364.png" alt = "sql-logo">
 </div>
 
 Sistema de Gestión de Bases de Datos Relacionales (RDBMS) utilizado para el diseño y almacenamiento persistente de los datos transaccionales de los Bounded Contexts del sistema. Soporta la integridad referencial y las consultas estructuradas necesarias para la lógica del backend.
