@@ -144,11 +144,18 @@
 
 #### 1.1.1. Descripción de la Startup
 
-[Descripción general del startup: misión, visión, propuesta de valor, y contexto en el que opera.]
+Descripción general:
+LocalSync nace para cerrar la brecha entre la gestión tradicional de recintos deportivos y la innovación tecnológica impulsada por el Internet de las Cosas (IoT). Somos una startup comprometida con la optimización de los activos físicos y la mejora de la experiencia del usuario en gimnasios, asegurando que la toma de decisiones basada en datos reemplace a la intuición, maximizando la rentabilidad y la satisfacción del cliente.
+
+Misión:
+La misión de LocalSync es ofrecer un servicio inteligente de monitoreo y analítica de uso de equipos deportivos, orientado a gimnasios y centros de fitness universitarios. Buscamos optimizar sus procesos operativos y de mantenimiento mediante el uso de IoT (cámaras con visión computacional y sensores en el Edge) para transformar el uso físico de las máquinas en datos accionables gestionados eficientemente en la nube.
+Visión:
+La visión de LocalSync es ser la plataforma líder en telemetría y gestión de activos deportivos en Perú, promoviendo una administración moderna y predictiva que impulse a los gimnasios hacia una transformación digital eficiente y a la vanguardia de la tecnología.
 
 #### 1.1.2. Perfiles de integrantes del equipo
+<img src="./assets/foto-juan-pablo-azama.png" alt="foto-juan-pablo-azama" width="200" height="200">
 
-[Descripción de cada integrante del equipo: nombre, rol, habilidades y contribuciones al proyecto.]
+Soy Juan Pablo Azama Fukuda (Código: u202411310), estudiante de quinto ciclo de Ingeniería de Software. En el ámbito técnico, poseo una base sólida en lenguajes como C++, Java y Unity. Para este proyecto, mi contribución principal tendrá un foco en la parte de diseño/frontend de la aplicación, tanto en la aplicación web y el landing page. Para ello, me respaldo en mis conocimientos decentes en Figma, HTML y CSS, además de mi manejo de React.js, competencias que seguiré escalando a lo largo del curso. A nivel de gestión, asumo el rol de team leader, con la responsabilidad de articular los esfuerzos del equipo, guiar el desarrollo y garantizar una metodología de trabajo eficiente.
 
 ### 1.2. Solution Profile
 
@@ -437,7 +444,9 @@ Se considera la protección de la rama main como medida para restringir modifica
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
-[Guía de estilo de código adoptada por el equipo: nomenclatura, estructura de archivos y reglas de formato.]
+Gemini dijo
+Para garantizar la claridad y cohesión del código fuente en el desarrollo de la plataforma que plantea el equipo,  se ha adoptado rigurosas convenciones de codificación y una nomenclatura estrictamente en idioma inglés (esto último a indicación del enunciado del trabajo final), aplicándose esto a todas las tecnologías de la solución. En relación al frontend, la estructura semántica y los estilos se rigen por la Google HTML/CSS Style Guide, priorizando el uso exclusivo de minúsculas y la separación de palabras mediante guiones (kebab-case) para identificadores y clases, tal como se evidencia en selectores estructurales tipo machine-status-badge o asset-detail-card (Google, s.f.). Asimismo, la lógica de la interfaz y la arquitectura del frontend siguen los lineamientos de la Google TypeScript Style Guide (Google, s.f.) y la Angular Coding Style Guide (Angular, s.f.), aplicando lowerCamelCase para la declaración de variables y funciones (por ejemplo, reportMachineIssue()) y estandarizando la denominación de archivos por responsabilidades separadas por puntos (ej., equipment-list.component.ts). Por otro lado, en la arquitectura del lado del servidor, el código se alinea con la Google Java Style Guide y las directrices de Spring Boot Features (Google, s.f.), estableciendo el uso innegociable de UpperCamelCase (PascalCase) para la definición de entidades y controladores (ej., MaintenanceTicketController), además de seguir patrones arquitectónicos definidos por el framework para la inyección de dependencias. Finalmente, para asegurar una trazabilidad transparente entre los requerimientos del gimnasio y las pruebas automatizadas, el equipo utiliza las Gherkin Conventions for Readable Specifications, modelando historias de usuario bajo la sintaxis declarativa de comportamiento (Given, When, Then), lo que unifica el entendimiento funcional entre desarrolladores y stakeholders (Cucumber, s.f.).
+
 
 #### 5.1.4. Software Deployment Configuration
 
@@ -513,10 +522,33 @@ Se considera la protección de la rama main como medida para restringir modifica
 
 ## Bibliografía
 
-[Referencias bibliográficas en formato APA u otro estándar académico requerido por la institución.]
+Angular. (s.f.). Angular Coding Style Guide. Angular. Recuperado el 8 de abril de 2026, de https://angular.dev/style-guide
 
----
+Cucumber. (s.f.). Gherkin Reference. Cucumber. Recuperado el 8 de abril de 2026, de https://cucumber.io/docs/gherkin/reference/
+
+Google. (s.f.-a). Google HTML/CSS Style Guide. GitHub. Recuperado el 8 de abril de 2026, de https://google.github.io/styleguide/htmlcssguide.html
+
+Google. (s.f.-b). Google Java Style Guide. GitHub. Recuperado el 8 de abril de 2026, de https://google.github.io/styleguide/javaguide.html
+
+Google. (s.f.-c). Google TypeScript Style Guide. GitHub. Recuperado el 8 de abril de 2026, de https://google.github.io/styleguide/tsguide.html
+
+DINGG. (2025). Your 5-Step Operational Plan to Handle Equipment Failures. DINGG. Recuperado el 8 de abril de 2026, de https://dingg.app/blogs/your-5-step-operational-plan-to-handle-equipment-failures
+
+Energym. (2023). Why do gym members cancel their memberships? Energym. Recuperado el 8 de abril de 2026, de https://energym.io/blogs/braingains/why-do-gym-members-cancel-their-memberships
+
+IHRSA. (2023). IHRSA Health Club Consumer Report. IHRSA. Recuperado el 8 de abril de 2026, de https://www.ihrsa.org/publications/
+
+MaintainNow. (2025). MRO (Maintenance, Repair & Operations): A Practical Guide. MaintainNow. Recuperado el 8 de abril de 2026, de https://www.maintainnow.app/learn/guides/mro-maintenance-repair-operations-a-practical-guide
+
+Oxmaint. (2023). Corrective vs. Preventive Work Orders. Oxmaint. Recuperado el 8 de abril de 2026, de https://www.oxmaint.com/blog/post/corrective-vs-preventive-work-orders
+
+ResQ. (s.f.). The True Cost of Reactive Maintenance in Facilities. ResQ. Recuperado el 8 de abril de 2026, de https://www.getresq.com/blog/true-cost-of-reactive-maintenance
+
+Rework. (s.f.). Community Building in Fitness Studios. Rework Resources. Recuperado el 8 de abril de 2026, de https://resources.rework.com/libraries/gym-fitness-growth/community-building-fitness-studios
+
+Top Fitness Store. (2024). Commercial & Professional Treadmills. Top Fitness Store. Recuperado el 8 de abril de 2026, de https://www.topfitness.com/collections/commercial-treadmills
 
 ## Anexos
+
 
 [Material complementario: entrevistas completas, wireframes adicionales, documentación técnica extendida, etc.]
